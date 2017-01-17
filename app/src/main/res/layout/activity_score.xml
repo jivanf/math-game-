@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_score"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jivan.mathgame.ScoreActivity">
+
+
+    <TextView
+        android:text="Tu Puntuación"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="40sp" />
+
+    <TextView
+        android:text="20"
+        android:layout_marginTop="60px"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textFinalScore"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="55sp" />
+
+    <Button
+        android:text="Volver a Jugar"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playAgainButton"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:text="Inicio"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/homeButton"
+        android:textSize="20sp"
+        android:layout_below="@+id/textFinalScore" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:scaleType="fitCenter"
+        android:layout_height="125dp"
+        android:layout_width="135dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/playAgainButton"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
